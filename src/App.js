@@ -14,23 +14,26 @@ import BlueStacks from './blogs/BlueStacks';
 import Masterml from './blogs/Masterml';
 import NewUser from './blogs/NewUser';
 import Obs from './blogs/Obs';
+import Contact from './components/Contact';
 
 export default function App() {
-    return (<>
-        <Router >
-            <Navbar />
-            <Routes >
-                <Route path="/Blog/*" element={<BlogMain />} />
-                <Route path="/" element={< Main />} />
-                <Route path="/win11" element={< Win11 />} />
-                <Route path="/Pegasus" element={< Pegasus />} />
-                <Route path="/BlueStacks" element={< BlueStacks />} />
-                <Route path="/obs" element={< Obs />} />
-                <Route path="/NewUser" element={< NewUser />} />
-                <Route path="/masterml" element={< Masterml />} />
-            </Routes>
-            <Footer/>
-        </Router>
-    </>
+    return (
+        <>
+            <Router >
+                <Navbar />
+                <Routes >
+                    <Route path="/Blog/*" element={<BlogMain />} />
+                    <Route path="/" element={< Main />} />
+                    <Route path="/win11" element={< Win11 />} />
+                    <Route path="/Pegasus" element={< Pegasus />} />
+                    <Route path="/BlueStacks" element={< BlueStacks />} />
+                    <Route path="/obs" element={< Obs />} />
+                    <Route path="/NewUser" element={< NewUser />} />
+                    <Route path="/masterml" element={< Masterml />} />
+                    <Route path="/Contact" element={< Contact />} />
+                </Routes>
+                <Footer />
+            </Router>
+        </>
     );
 };
