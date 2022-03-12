@@ -5,8 +5,8 @@ function Obs() {
         <>
         <div className="container w-full md:max-w-4xl mx-auto pt-2">
                 <div className="w-full px-4 md:px-6 text-xl text-gray-800 leading-normal">
-                <div class=" font-sans">
-                    <h1 class="font-bold font-sans break-normal text-gray-900 pt-6 pb-2 text-3xl md:text-4xl">How to Record your screen With OBS Studio</h1>
+                <div className=" font-sans">
+                    <h1 className="font-bold font-sans break-normal text-gray-900 pt-6 pb-2 text-3xl md:text-4xl">How to Record your screen With OBS Studio</h1>
                     </div>
                         <div className="py-6 break-words">
                         <p>Follow the steps given below to record your screen with OBS :</p>

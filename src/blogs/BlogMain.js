@@ -90,6 +90,47 @@ export default class BlogMain extends Component {
                     </div>
                 </div>
             </div>
+            <div className="flex flex-wrap">
+                <div className="lg:p-4 md:w-1/3 flex justify-center">
+                    <div className="max-w-sm rounded-2xl overflow-hidden shadow-lg">
+                        <img className="w-full" src="https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc3/1EF7B4E2_7A15_4968_AFA7_FA0476CBAC95.jpeg" alt="Tailwind Blog In Hindi" />
+                        <div className="px-6 py-4 lg:h-52">
+                            <span className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">Free Blog</span>
+                            <div className="title-font text-lg font-medium text-gray-900 mb-3">
+                                <Link to="/LAMP">How to use Google Chrome as a Text Editor?
+</Link>
+                            </div>
+                            <p className="text-gray-700 text-base">In this post, I will talk about the complete machine learning roadmap for beginners. This post is going to be a bit different.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div className="lg:p-4 md:w-1/3 flex justify-center">
+                    <div className="max-w-sm rounded-2xl overflow-hidden shadow-lg">
+                        <img className="w-full" src="https://techcrunch.com/wp-content/uploads/2017/02/android-studio-logo.png" alt="js Tutorials For Beginners" />
+                        <div className="px-6 py-4 lg:h-52">
+                            <span className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">Free Blog</span>
+                            <div className="title-font text-lg font-medium text-gray-900 mb-3">
+                                <Link to="/Studio">How to Install & Use Material Theme in Android Studio</Link>
+                            </div>
+                            <p className="text-gray-700 text-base">There is a number of IDEs available on the internet for Android Development. But the most loved and most recommended one is the Android Studio. Being an android developer you will spend most of your..</p>
+                        </div>
+                    </div>
+                </div>
+                <div className="lg:p-4 md:w-1/3 flex justify-center">
+                    <div className="max-w-sm rounded-2xl overflow-hidden shadow-lg">
+                        <img className="w-full" src="https://restream.io/blog/content/images/2021/05/how-to-use-obs-studio-full-guide.jpeg" alt="React Js Tutorials For Beginners" />
+                        <div className="px-6 py-4 lg:h-52">
+                            <span className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">Free Blog</span>
+                            <div className="title-font text-lg font-medium text-gray-900 mb-3">
+                                <Link to="/protect">How to Password Protect a Folder in Windows 10 Without Any Additional Software
+</Link>
+                            </div>
+                            <p className="text-gray-700 text-base">In this article, I will tell you a trick that will help you lock and hide any folder without installing any third-party software....</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
       </div>
       </>
     )

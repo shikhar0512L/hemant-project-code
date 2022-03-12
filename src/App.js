@@ -15,6 +15,9 @@ import Masterml from './blogs/Masterml';
 import NewUser from './blogs/NewUser';
 import Obs from './blogs/Obs';
 import Contact from './components/Contact';
+import Text from './blogs/Text';
+import Studio from './blogs/Studio';
+import Protect from './blogs/Protect';
 
 export default function App() {
     return (
@@ -28,8 +31,11 @@ export default function App() {
                     <Route path="/Pegasus" element={< Pegasus />} />
                     <Route path="/BlueStacks" element={< BlueStacks />} />
                     <Route path="/obs" element={< Obs />} />
+                    <Route path="/Studio" element={< Studio />} />
                     <Route path="/NewUser" element={< NewUser />} />
+                    <Route path="/LAMP" element={< Text />} />
                     <Route path="/masterml" element={< Masterml />} />
+                    <Route path="/protect" element={< Protect />} />
                     <Route path="/Contact" element={< Contact />} />
                 </Routes>
                 <Footer />

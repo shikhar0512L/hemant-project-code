@@ -1,10 +1,10 @@
-import React from 'react'
+import React from 'react';
 import Testimonials from './Testimonials';
 import { Link } from "react-router-dom";
 
 function Main() {
     return (
-        <div>
+        <>             {/* The whole container */}
             <div className="flex bg-white h-96 container mx-auto">
                 <div className="flex items-center text-center lg:text-left px-8 md:px-12 lg:w-1/2">
                     <div>
@@ -16,12 +16,12 @@ function Main() {
 
                         <div className=" lg:justify-start mt-6">
                             <div className="space-y-3 items-center">
-                                <a href="https://discord.gg/qHs5NF9SeM" className="px-3 py-2 lg:px-4 lg:py-3 bg-gray-900 text-gray-200 text-xs font-semibold rounded hover:bg-gray-800 hover:animate-bounce hover:text-white" target="_blank">Discord</a>
-                                <a href="https://www.youtube.com/channel/UCUAF4OuZMv39rP-xM2amj0Q?sub_confirmation=1" className="px-3 py-2 mx-4 lg:px-4 lg:py-3 bg-gray-300 text-gray-900 text-xs font-semibold rounded hover:bg-gray-400 hover:animate-bounce hover:text-gray-900" target="_blank">Subscribe</a>
+                                <a href="https://discord.gg/qHs5NF9SeM" rel="noreferrer"  className="px-3 py-2 lg:px-4 lg:py-3 bg-gray-900 text-gray-200 text-xs font-semibold rounded hover:bg-gray-800 hover:animate-bounce hover:text-white" target="_blank">Discord</a>
+                                <a href="https://www.youtube.com/channel/UCUAF4OuZMv39rP-xM2amj0Q?sub_confirmation=1" rel="noreferrer"  className="px-3 py-2 mx-4 lg:px-4 lg:py-3 bg-gray-300 text-gray-900 text-xs font-semibold rounded hover:bg-gray-400 hover:animate-bounce hover:text-gray-900" target="_blank">Subscribe</a>
 
-                                <Link to="/blog" className="flex flex-grid px-3 py-2 mx-2 lg:px-4 lg:py-3 bg-gray-300 text-gray-900 text-xs font-semibold rounded hover:bg-gray-400 hover:animate-bounce hover:text-gray-900 md:hidden">Blogs</Link>
+                                <Link to="/blog" className="grid px-3 py-2 mx-9 lg:px-4 lg:py-3 bg-gray-300 text-gray-900 text-xs font-semibold rounded hover:bg-gray-400 hover:animate-bounce hover:text-gray-900 md:hidden">Blogs</Link>
 
-                                <Link to="/Contact" className="px-3 flex flex-grid py-2 mx-4 lg:px-4 lg:py-3 bg-gray-300 text-gray-900 text-xs font-semibold rounded hover:bg-gray-400 hover:animate-bounce hover:text-gray-900 md:hidden">Contact</Link>
+                                <Link to="/Contact" className=" grid py-2 mx-9 lg:px-4 lg:py-3 bg-gray-300 text-gray-900 text-xs font-semibold rounded hover:bg-gray-400 hover:animate-bounce hover:text-gray-900 md:hidden">Contact</Link>
 
                             </div>
                         </div>
@@ -42,7 +42,7 @@ function Main() {
                         <div className="px-6 py-4 lg:h-52">
                             <span className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">Free Course</span>
                             <div className="title-font text-lg font-medium text-gray-900 mb-3 hover:animate-bounce hover:text-black">
-                                <a href="https://www.youtube.com/playlist?list=PLdKLG_PbpWy2HzwP3NP-AslMWgmWUA0o-" target="_blank">Web Dev Tutorials For Beginners</a>
+                                <a href="https://www.youtube.com/playlist?list=PLdKLG_PbpWy2HzwP3NP-AslMWgmWUA0o-" rel="noreferrer"  target="_blank">Web Dev Tutorials For Beginners</a>
                             </div>
                             <p className="text-gray-700 text-base">This is one of my favorite courses. In this series, you'll learn about HTML, CSS, JavaScript, and everything needed to be a job-ready web developer. Just hop on, man.
 
@@ -56,7 +56,7 @@ function Main() {
                         <div className="px-6 py-4 lg:h-52">
                             <span className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">Free Course</span>
                             <div className="title-font text-lg font-medium text-gray-900 mb-3 hover:animate-bounce hover:text-black">
-                                <a href="https://www.youtube.com/playlist?list=PLdKLG_PbpWy2MNk2KNzpCTfpo4ccKdAU0" target="_blank">JavaScript tutorial for beginners</a>
+                                <a href="https://www.youtube.com/playlist?list=PLdKLG_PbpWy2MNk2KNzpCTfpo4ccKdAU0" rel="noreferrer"  target="_blank">JavaScript tutorial for beginners</a>
                             </div>
                             <p className="text-gray-700 text-base">JavaScript is an essential element for the web developers. If you want to take your web development journey one step ahead then you enroll in this course.
 
@@ -70,7 +70,7 @@ function Main() {
                         <div className="px-6 py-4 lg:h-52">
                             <span className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">Free Course</span>
                             <div className="title-font text-lg font-medium text-gray-900 mb-3 hover:animate-bounce hover:text-black">
-                                <a href="https://www.youtube.com/playlist?list=PLdKLG_PbpWy2yNSxKeBCK6MOvu4jhlCj-" target="_blank">React Js Tutorials For Beginners</a>
+                                <a href="https://www.youtube.com/playlist?list=PLdKLG_PbpWy2yNSxKeBCK6MOvu4jhlCj-" rel="noreferrer"  target="_blank">React Js Tutorials For Beginners</a>
                             </div>
                             <p className="text-gray-700 text-base">React is a free and open-source front-end JavaScript library. This series will cover React from starting to the end. We will learn react from the ground up!</p>
                         </div>
@@ -78,7 +78,7 @@ function Main() {
                 </div>
             </div>
             <Testimonials />
-        </div>
+        </>
     )
 }
 
